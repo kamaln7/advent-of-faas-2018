@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: ###
+
+functions:
+  aoc18-1:
+    lang: node
+    handler: ./1
+    image: ###
